@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 import '../styles/App.css';
 const App = () => {
 //code here 
-  const [button1,setButton1]=useState("ON")
-  const [button2,setButton2]=useState("OFF")
+  const [button1,setButton1]=useState("OFF")
+  const [button2,setButton2]=useState("ON")
   const handleClick=()=>{
     button1==="ON"? setButton1("OFF") : setButton1("ON")
     button1==="ON"? setButton2("ON") : setButton2("OFF")
